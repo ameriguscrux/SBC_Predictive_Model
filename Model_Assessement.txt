@@ -1,0 +1,60 @@
+SBC Model Assessement
+
+-- Kolmogorov-Smirnov test --
+
+Prediction Values Sites/No-Sites
+
+Bootstrap p-value:     < 2.22e-16 
+Naive p-value:         9.3533e-14 
+Full Sample Statistic: 0.73175 
+
+
+-- Kvamme's Gain - Sites --
+              >0.1 >0.2 >0.3 >0.4 >0.5 >0.6 >0.7 >0.8 >0.9
+% Area        0.42 0.31 0.25 0.20 0.16 0.12 0.10 0.06 0.03
+% Siti        1.00 0.94 0.83 0.77 0.60 0.51 0.46 0.31 0.14
+Kvamme's Gain 0.58 0.67 0.70 0.74 0.73 0.76 0.78 0.81 0.79
+
+-- Kvamme's Gain - No Sites in predicted area --
+               >0.1  >0.2  >0.3 >0.4  >0.5  >0.6  >0.7  >0.8  >0.9
+% Area         0.42  0.31  0.25  0.2  0.16  0.12  0.10  0.06  0.03
+% No Sites     0.36  0.28  0.17  0.1  0.10  0.08  0.04  0.04  0.01
+Kvamme's Gain -0.17 -0.11 -0.47 -1.0 -0.60 -0.50 -1.50 -0.50 -2.00
+
+-- Kvamme's Gain - No Sites in unpredicted area --
+              >0.1 >0.2 >0.3 >0.4 >0.5 >0.6 >0.7 >0.8 >0.9
+% Area Unpred 0.58 0.69 0.75 0.80 0.84 0.88 0.90 0.94 0.97
+% No Sites    0.64 0.72 0.83 0.90 0.90 0.92 0.96 0.96 0.99
+Kvamme's Gain 0.09 0.04 0.10 0.11 0.07 0.04 0.06 0.02 0.02
+
+#######################################################################
+
+SBC Model Assessement 
+(with Land Cover)
+
+-- Kolmogorov-Smirnov test --
+
+Prediction Values Sites/No-Sites
+
+Bootstrap p-value:     < 2.22e-16 
+Naive p-value:         1.1329e-20 
+Full Sample Statistic: 0.87143 
+
+
+-- Kvamme's Gain - Sites --
+              >0.1 >0.2 >0.3 >0.4 >0.5 >0.6 >0.7 >0.8 >0.9
+% Area        0.21 0.17 0.13 0.11 0.10 0.08 0.07 0.05 0.04
+% Siti        0.97 0.94 0.94 0.86 0.83 0.80 0.71 0.60 0.51
+Kvamme's Gain 0.78 0.82 0.86 0.87 0.88 0.90 0.90 0.92 0.92
+
+-- Kvamme's Gain - No Sites in predicted area --
+               >0.1  >0.2  >0.3  >0.4  >0.5  >0.6  >0.7  >0.8  >0.9
+% Area         0.21  0.17  0.13  0.11  0.10  0.08  0.07  0.05  0.04
+% No Sites     0.20  0.10  0.09  0.09  0.06  0.06  0.03  0.02  0.01
+Kvamme's Gain -0.05 -0.70 -0.44 -0.22 -0.67 -0.33 -1.33 -1.50 -3.00
+
+-- Kvamme's Gain - No Sites in unpredicted area --
+              >0.1 >0.2 >0.3 >0.4 >0.5 >0.6 >0.7 >0.8 >0.9
+% Area Unpred 0.79 0.83 0.87 0.89 0.90 0.92 0.93 0.95 0.96
+% No Sites    0.80 0.90 0.91 0.91 0.94 0.94 0.97 0.98 0.99
+Kvamme's Gain 0.01 0.08 0.04 0.02 0.04 0.02 0.04 0.03 0.03

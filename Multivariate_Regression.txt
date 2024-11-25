@@ -1,0 +1,118 @@
+Multivariate Logistic Regression
+BASE MODEL
+
+Call:
+glm(formula = name ~ DTM_SBC + Slope + TWI + River_cost + Lithology + 
+    Avalanche, family = binomial(logit), data = tab)
+
+Coefficients:
+              Estimate Std. Error z value Pr(>|z|)    
+(Intercept)  1.205e+01  4.246e+00   2.838  0.00454 ** 
+DTM_SBC     -2.787e-03  1.397e-03  -1.995  0.04606 *  
+Slope       -2.773e-01  6.407e-02  -4.328  1.5e-05 ***
+TWI         -2.260e-01  2.417e-01  -0.935  0.34972    
+River_cost   1.566e-03  1.170e-03   1.338  0.18099    
+Lithology1  -1.215e+00  8.944e-01  -1.358  0.17431    
+Lithology2  -1.669e+01  6.523e+03  -0.003  0.99796    
+Lithology3  -2.018e+00  1.363e+00  -1.480  0.13888    
+Avalanche1   8.311e-02  9.219e-01   0.090  0.92817    
+Avalanche2  -1.768e+01  1.636e+03  -0.011  0.99138    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 148.238  on 124  degrees of freedom
+Residual deviance:  69.132  on 115  degrees of freedom
+AIC: 89.132
+
+Number of Fisher Scoring iterations: 17
+
+
+ Variance Inflation Factor
+               GVIF Df GVIF^(1/(2*Df))
+DTM_SBC    1.368726  1        1.169926
+Slope      2.206678  1        1.485489
+TWI        1.456375  1        1.206804
+River_cost 2.115810  1        1.454582
+Lithology  1.240028  3        1.036506
+Avalanche  1.840972  2        1.164828
+
+ Stepwise model selection - AIC
+
+Call:
+glm(formula = name ~ DTM_SBC + Slope + River_cost + Avalanche, 
+    family = binomial(logit), data = tab)
+
+Coefficients:
+              Estimate Std. Error z value Pr(>|z|)    
+(Intercept)  9.969e+00  2.795e+00   3.567 0.000361 ***
+DTM_SBC     -2.966e-03  1.238e-03  -2.395 0.016599 *  
+Slope       -2.562e-01  5.486e-02  -4.670 3.02e-06 ***
+River_cost   1.786e-03  1.108e-03   1.611 0.107086    
+Avalanche1  -7.624e-03  8.209e-01  -0.009 0.992590    
+Avalanche2  -1.774e+01  1.637e+03  -0.011 0.991355    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 148.238  on 124  degrees of freedom
+Residual deviance:  74.796  on 119  degrees of freedom
+AIC: 86.796
+
+Number of Fisher Scoring iterations: 17
+
+
+ Stepwise model selection - BIC
+
+Call:
+glm(formula = name ~ DTM_SBC + Slope, family = binomial(logit), 
+    data = tab)
+
+Coefficients:
+             Estimate Std. Error z value Pr(>|z|)    
+(Intercept) 10.047158   2.574629   3.902 9.53e-05 ***
+DTM_SBC     -0.003264   0.001155  -2.826  0.00472 ** 
+Slope       -0.202717   0.041422  -4.894 9.88e-07 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 148.238  on 124  degrees of freedom
+Residual deviance:  84.531  on 122  degrees of freedom
+AIC: 90.531
+
+Number of Fisher Scoring iterations: 6
+
+
+Extended Coefficients:
+
+ (Intercept)      DTM_SBC        Slope 
+10.047157892 -0.003264071 -0.202716735 
+
+ Variance Inflation Factor (BIC)
+ DTM_SBC    Slope 
+1.049142 1.049142 
+
+Standardized Coefficients:
+
+DTM_SBC   Slope
+-1.156761 -3.028477
+
+Area under the ROC curve (AUC)
+
+Call:
+roc.default(response = BIC_glm$y, predictor = BIC_glm$fitted.values)
+
+Data: BIC_glm$fitted.values in 90 controls (BIC_glm$y 0) < 35 cases (BIC_glm$y 1).
+Area under the curve: 0.9127
+
+Discriminatory Ability (HOSMER et. al. 2013 - Applied Logistic Regression - 3rd Ed.) 
+
+    0.5 = No better than chance
+0.5-0.7 = Poor
+0.7-0.8 = Acceptable
+0.8-0.9 = Excellent
+0.9-1.0 = Outstanding
