@@ -10,8 +10,6 @@ library(dplyr)
 library(ggplot2)
 library(ggpubr)
 
-setwd("D:/Archeologia/Carona/Analisi/Modelli/Modello_2023")
-
 # Spatial data upload
 Carona<-read_RAST(c("DTM_SBC","Slope","TWI","River_cost","Lakes_cost",
                   "North","East","Profile","Lithology","Permeability",
