@@ -1,5 +1,5 @@
 
-#### Ethnoarchaeological predictive Model ####
+#### Ethnoarchaeological inductive predictive Model ####
 #### Sorgenti del Brembo di Carona - v.2023 ####
 #### E. Croce, F, Carrer ####
 
@@ -20,7 +20,7 @@ Carona$Lithology<-as.factor(Carona$Lithology)
 Carona$Permeability<-as.factor(Carona$Permeability)
 Carona$Avalanche<-as.factor(Carona$Avalanche)
 Carona$MorFeat<-as.factor(Carona$MorFeat)
-Sites<-read_VECT("Cottages_SBC")
+Sites<-read_VECT("Summer_Farms_Points")
 No_Sites<-read_VECT("Random90")
 
 # Tables creation
