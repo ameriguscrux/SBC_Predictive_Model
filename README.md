@@ -1,22 +1,22 @@
-SBC PRED MOD 
-version 2023
+**SBC PRED MOD**
+_version 2023_
 
-Data and code used for the development of an ethnoarchaeological inductive predictive model in the central italian Alps (Upper Brembo Valley, province of Bergamo, Italy).
+Data and code used for the development of an **ethnoarchaeological inductive predictive model** in the central italian Alps (Upper Brembo Valley, province of Bergamo, Italy).
 SBC is for "Sorgenti del Brembo di Carona" (Source of the Carona branch of the River Brembo).
 
-The inductive predictive model was originally created as part of a PhD Thesis:
-CROCE E., 2022, Archeologia d'alta quota alle sorgenti del Brembo, PhD Thesis, A.A. 2020/2021, Università di Trento.
+The inductive predictive model was **originally created as part of a PhD Thesis**:
+_CROCE E., 2022, Archeologia d'alta quota alle sorgenti del Brembo, PhD Thesis, A.A. 2020/2021, Università di Trento._
 https://dx.doi.org/10.15168/11572_350299
 
-And is based upon the previous work of F. Carrer (which co-authored also the present model):
-CARRER F., 2013, An ethnoarchaeological inductive model for predicting archaeological site location: a case-study of pastoral settlement patterns in the Val di Fiemme and Val di Sole (Trentino, Italian Alps), Journal of Anthropological Archaeology, 32, pp. 54-62.
+And is **based upon the previous work of F. Carrer** (which co-authored also the present model):
+_CARRER F., 2013, An ethnoarchaeological inductive model for predicting archaeological site location: a case-study of pastoral settlement patterns in the Val di Fiemme and Val di Sole (Trentino, Italian Alps), Journal of Anthropological Archaeology, 32, pp. 54-62._
 https://doi.org/10.1016/j.jaa.2012.10.001
 
 The position of modern summer farms, along with a sample of random points, and physical landscape data, are used to calculate an inductive predictive model centered on pastoral activities. 
 The calculation can be done mainly with GRASS GIS and R/RStudio. Some data are pre-processed using QGIS.
 
 Source of summer farm data: 
-MARENGONI M., 1997, Alpeggi in provincia di Bergamo, Provincia di Bergamo.
+_MARENGONI M., 1997, Alpeggi in provincia di Bergamo, Provincia di Bergamo._
 
 Source of spatial data: https://www.geoportale.regione.lombardia.it/
 
