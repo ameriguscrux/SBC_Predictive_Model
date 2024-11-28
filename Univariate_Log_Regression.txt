@@ -1,0 +1,185 @@
+Univariate Logistic Regression
+$DTM_SBC
+
+Call:
+glm(formula = f, family = binomial(logit), data = y)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-1.7716  -0.7675  -0.5432   1.1779   2.0002  
+
+Coefficients:
+              Estimate Std. Error z value Pr(>|z|)    
+(Intercept)  5.1733132  1.6712469   3.095 0.001965 ** 
+DTM_SBC     -0.0030800  0.0008513  -3.618 0.000297 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 148.24  on 124  degrees of freedom
+Residual deviance: 132.69  on 123  degrees of freedom
+AIC: 136.69
+
+Number of Fisher Scoring iterations: 4
+
+
+$Slope
+
+Call:
+glm(formula = f, family = binomial(logit), data = y)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-2.4000  -0.6012  -0.2380   0.5005   2.3266  
+
+Coefficients:
+            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)   3.5872     0.8372   4.285 1.83e-05 ***
+Slope        -0.2001     0.0390  -5.132 2.86e-07 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 148.238  on 124  degrees of freedom
+Residual deviance:  93.349  on 123  degrees of freedom
+AIC: 97.349
+
+Number of Fisher Scoring iterations: 6
+
+
+$TWI
+
+Call:
+glm(formula = f, family = binomial(logit), data = y)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-1.6198  -0.7902  -0.5865   1.1194   2.0446  
+
+Coefficients:
+            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)  -4.0104     0.9595  -4.180 2.92e-05 ***
+TWI           0.4677     0.1391   3.362 0.000774 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 148.24  on 124  degrees of freedom
+Residual deviance: 135.53  on 123  degrees of freedom
+AIC: 139.53
+
+Number of Fisher Scoring iterations: 4
+
+
+$River_cost
+
+Call:
+glm(formula = f, family = binomial(logit), data = y)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-1.0485  -0.8735  -0.6573   1.3099   1.9909  
+
+Coefficients:
+              Estimate Std. Error z value Pr(>|z|)  
+(Intercept) -0.2600570  0.3259669  -0.798   0.4250  
+River_cost  -0.0014009  0.0005782  -2.423   0.0154 *
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 148.24  on 124  degrees of freedom
+Residual deviance: 141.56  on 123  degrees of freedom
+AIC: 145.56
+
+Number of Fisher Scoring iterations: 4
+
+
+$Lithology
+
+Call:
+glm(formula = f, family = binomial(logit), data = y)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-1.0383  -1.0383  -0.4419   1.3232   2.1794  
+
+Coefficients:
+             Estimate Std. Error z value Pr(>|z|)    
+(Intercept)   -0.3365     0.2390  -1.408 0.159260    
+Lithology3    -1.7430     1.0873  -1.603 0.108917    
+Lithology2   -15.2296  1455.3976  -0.010 0.991651    
+Lithology1    -1.9408     0.5769  -3.364 0.000767 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 148.24  on 124  degrees of freedom
+Residual deviance: 130.70  on 121  degrees of freedom
+AIC: 138.7
+
+Number of Fisher Scoring iterations: 14
+
+
+$Avalanche
+
+Call:
+glm(formula = f, family = binomial(logit), data = y)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-0.9854  -0.9854  -0.5389   1.3824   2.0007  
+
+Coefficients:
+             Estimate Std. Error z value Pr(>|z|)   
+(Intercept)   -0.4700     0.2327  -2.019  0.04344 * 
+Avalanche2   -17.0961  1251.0541  -0.014  0.98910   
+Avalanche1    -1.3863     0.5342  -2.595  0.00946 **
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 148.24  on 124  degrees of freedom
+Residual deviance: 133.25  on 122  degrees of freedom
+AIC: 139.25
+
+Number of Fisher Scoring iterations: 16
+
+
+$DUSAF
+
+Call:
+glm(formula = f, family = binomial(logit), data = y)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-1.5315  -0.4512  -0.3203   0.8607   2.4478  
+
+Coefficients:
+             Estimate Std. Error z value Pr(>|z|)    
+(Intercept)    0.8023     0.3338   2.404 0.016223 *  
+DUSAF6        -3.7468     1.0789  -3.473 0.000515 ***
+DUSAF5       -19.3684  2662.8561  -0.007 0.994197    
+DUSAF4        -1.2078     0.9720  -1.243 0.214003    
+DUSAF2        -3.0359     0.6931  -4.380 1.19e-05 ***
+DUSAF1       -19.3684  1423.3565  -0.014 0.989143    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 148.238  on 124  degrees of freedom
+Residual deviance:  86.355  on 119  degrees of freedom
+AIC: 98.355
+
+Number of Fisher Scoring iterations: 17
+
+ Likelihood Ratio
+     DTM_SBC        Slope          TWI   River_cost    Lithology    Avalanche        DUSAF 
+8.055267e-05 1.274536e-13 3.649724e-04 9.766467e-03 2.812563e-05 1.079426e-04 3.663736e-15 
