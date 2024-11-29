@@ -1,5 +1,4 @@
-**SBC PRED MOD**
-_version 2023_
+**SBC PREDICTIVE MODEL**
 
 Data and code used for the development of an **ethnoarchaeological inductive predictive model** in the central italian Alps (Upper Brembo Valley, province of Bergamo, Italy).
 SBC is for "Sorgenti del Brembo di Carona" (Source of the Carona branch of the River Brembo).
