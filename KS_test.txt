@@ -1,0 +1,41 @@
+Kolmogorov-Smirnov Test (Bootstrapping 10000)
+
+$DTM_SBC
+Bootstrap p-value:     1e-04 
+Naive p-value:         1.9686e-05 
+Full Sample Statistic: 0.46349 
+
+$Slope
+Bootstrap p-value:     < 2.22e-16 
+Naive p-value:         2.3487e-11 
+Full Sample Statistic: 0.66984 
+
+$TWI
+Bootstrap p-value:     1e-04 
+Naive p-value:         0.00036715 
+Full Sample Statistic: 0.40159 
+
+$River_cost
+Bootstrap p-value:     0.0218 
+Naive p-value:         0.023418 
+Full Sample Statistic: 0.28889 
+
+$Lakes_cost
+Bootstrap p-value:     0.0624 
+Naive p-value:         0.072128 
+Full Sample Statistic: 0.24921 
+
+$North
+Bootstrap p-value:     0.6084 
+Naive p-value:         0.63906 
+Full Sample Statistic: 0.14127 
+
+$East
+Bootstrap p-value:     0.5656 
+Naive p-value:         0.59854 
+Full Sample Statistic: 0.14603 
+
+$Profile
+Bootstrap p-value:     0.1077 
+Naive p-value:         0.11661 
+Full Sample Statistic: 0.23016 

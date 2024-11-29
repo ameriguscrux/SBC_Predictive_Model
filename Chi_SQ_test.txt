@@ -1,0 +1,36 @@
+Chi Square Test SITES
+
+Lithology
+
+	Chi-squared test for given probabilities with simulated p-value (based on 2000 replicates)
+
+data:  Lithology_area$sites
+X-squared = 17.06, df = NA, p-value = 0.003998
+
+Permeability
+
+	Chi-squared test for given probabilities with simulated p-value (based on 2000 replicates)
+
+data:  Permeability_area$sites
+X-squared = 1.7442, df = NA, p-value = 0.3948
+
+Avalanche
+
+	Chi-squared test for given probabilities with simulated p-value (based on 2000 replicates)
+
+data:  Avalanche_area$sites
+X-squared = 12.561, df = NA, p-value = 0.002999
+
+MorFeat
+
+	Chi-squared test for given probabilities with simulated p-value (based on 2000 replicates)
+
+data:  MorFeat_area$sites
+X-squared = 9.309, df = NA, p-value = 0.05747
+
+DUSAF
+
+	Chi-squared test for given probabilities with simulated p-value (based on 2000 replicates)
+
+data:  DUSAF_area$sites
+X-squared = 117.72, df = NA, p-value = 0.006997

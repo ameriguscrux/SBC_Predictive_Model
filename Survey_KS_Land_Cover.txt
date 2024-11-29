@@ -1,0 +1,149 @@
+Kolmogorov-Smirnov Test (Bootstrapping 10000) 
+ All Field Survey sites
+
+Bootstrap p-value:     < 2.22e-16 
+Naive p-value:         0 
+Full Sample Statistic: 0.3412 
+
+
+Sites by Categories
+
+$Altro
+Bootstrap p-value:     < 2.22e-16 
+Naive p-value:         1.9299e-11 
+Full Sample Statistic: 0.64437 
+
+$Baita
+Bootstrap p-value:     < 2.22e-16 
+Naive p-value:         0 
+Full Sample Statistic: 0.73508 
+
+$Carbonaia
+Bootstrap p-value:     < 2.22e-16 
+Naive p-value:         0 
+Full Sample Statistic: 0.75036 
+
+$Idroelettrico
+Bootstrap p-value:     < 2.22e-16 
+Naive p-value:         9.1394e-10 
+Full Sample Statistic: 0.70283 
+
+$Indefinito
+Bootstrap p-value:     < 2.22e-16 
+Naive p-value:         0 
+Full Sample Statistic: 0.73108 
+
+$Militare
+Bootstrap p-value:     0.0013 
+Naive p-value:         0.0041492 
+Full Sample Statistic: 0.71855 
+
+$Minerario
+Bootstrap p-value:     3e-04 
+Naive p-value:         0.0007578 
+Full Sample Statistic: 0.6 
+
+$Miniera
+Bootstrap p-value:     < 2.22e-16 
+Naive p-value:         7.0204e-11 
+Full Sample Statistic: 0.54072 
+
+$Muro
+Bootstrap p-value:     < 2.22e-16 
+Naive p-value:         0 
+Full Sample Statistic: 0.65068 
+
+$Ponte
+Bootstrap p-value:     < 2.22e-16 
+Naive p-value:         0.00026761 
+Full Sample Statistic: 0.79952 
+
+$Recinto
+Bootstrap p-value:     < 2.22e-16 
+Naive p-value:         0 
+Full Sample Statistic: 0.78451 
+
+$Reglana
+Bootstrap p-value:     < 2.22e-16 
+Naive p-value:         5.2176e-05 
+Full Sample Statistic: 0.69446 
+
+$Ricovero
+Bootstrap p-value:     < 2.22e-16 
+Naive p-value:         0 
+Full Sample Statistic: 0.73446 
+
+$Riparo
+Bootstrap p-value:     < 2.22e-16 
+Naive p-value:         0 
+Full Sample Statistic: 0.67768 
+
+$`Riparo Naturale`
+Bootstrap p-value:     < 2.22e-16 
+Naive p-value:         1.2874e-12 
+Full Sample Statistic: 0.61329 
+
+$Roccolo
+Bootstrap p-value:     < 2.22e-16 
+Naive p-value:         0.00018708 
+Full Sample Statistic: 0.96434 
+
+$Sentieri
+Bootstrap p-value:     < 2.22e-16 
+Naive p-value:         6.8158e-11 
+Full Sample Statistic: 0.56828 
+
+$Smarino
+Bootstrap p-value:     1e-04 
+Naive p-value:         0.00018373 
+Full Sample Statistic: 0.68337 
+
+$Spiazzo
+Bootstrap p-value:     < 2.22e-16 
+Naive p-value:         3.7847e-06 
+Full Sample Statistic: 0.74313 
+
+$Stalla
+Bootstrap p-value:     < 2.22e-16 
+Naive p-value:         3.9361e-05 
+Full Sample Statistic: 0.77756 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
